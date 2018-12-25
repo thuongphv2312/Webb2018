@@ -1,0 +1,12 @@
+table,td,th{
+	border-style: solid;
+	border-collapse: collapse;
+}
+th,td{
+	width: 200px;
+	height: 100px;
+}
+body{
+	width: 60%;
+	margin: 0 auto;
+}

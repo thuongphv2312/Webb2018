@@ -1,0 +1,31 @@
+body{
+	margin: 0 auto;
+	width: 60%;
+}
+table,td,tr,th{
+	text-align: center;
+	border-style: solid;
+	border-collapse: collapse;
+}
+th{
+	font-size: 50px;
+}
+tr,td{
+	font-size: 30px;
+}
+tr,td,th{
+	width: 400px;
+	height: 100px;
+}
+@font-face {
+  font-family: roboto-medium;
+  src: url(./fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: roboto-regular;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: roboto-bold;
+  src: url(./fonts/Roboto-Bold.ttf);
+}

@@ -1,0 +1,120 @@
+body{
+	width: 1600px;
+	margin: 0 auto;
+}
+@font-face {
+  font-family: roboto-medium;
+  src: url(./fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: roboto-regular;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: roboto-bold;
+  src: url(./fonts/Roboto-Bold.ttf);
+}
+
+a{
+	text-decoration: none;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.header-top{
+	display: flex;
+	height: 35px;
+	padding:5px 222px;
+}
+.header-top .row-1{
+	display: flex;
+	flex:1;
+	line-height: 35px;
+}
+.header-top .row-1 .right{
+	font-family: roboto-regular;
+	margin-left:30px;
+	font-size: 13px;
+}
+.header-top .row-1 .right i{
+	background-color: #e8ecf3;
+	margin-right:5px;
+
+}
+.header-top .row-1 div{
+	display: inline-block;
+}
+.header-top .row-2{
+	flex:1;
+	text-align: right;
+}
+.header-top .row-2 input{
+	height: 32px;
+}
+.header-center{
+	font-family: roboto-medium;
+	padding:0 222px;
+	height: 50px;
+	background-color: #ff9900;
+}
+.header-center ul li.menu-8{
+	position: relative;
+}
+.header-center ul li.menu-8 div.menu-81{
+	display: none;
+}
+.header-center ul li.menu-8:hover div.menu-81{
+	display: block;
+}
+.header-center ul li.menu-8 div.menu-81 ul li:hover{
+	border: 1px solid #ff9900;
+	border-radius: 10px;
+	color: #ff9900;
+}
+.header-center ul li.menu-8 div{
+	position: absolute;
+	width: 271px;
+	height: 290px;
+	background-color: white;
+	left: -5px;
+}
+.header-center ul li.menu-8 div ul li{
+	color: #666666;
+	width: 100px;
+	border-right: none;
+}
+.header-center ul li{
+	font-size: 15px;
+	color:#ffe9c7;
+	display: inline-block;
+	line-height: 50px;
+    width: 85px;
+    text-align: center;
+    border-right: 1px solid #ffad33;
+}
+.header-bottom{
+	background-image: url(images/Layer7.png);
+	padding:10px 222px;
+	height: 100px;
+}
+.header-bottom h1{
+	font-family: roboto-bold;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+.header-bottom div ul{
+	display: block;
+	margin: 0 0 10px 0;
+	color: #f1f9f6;
+}
+.header-bottom div ul li{
+	font-family: roboto-regular;
+	display: inline-block;
+	font-size: 15px;
+
+}
+content{
+	padding:50px 222px 90px 222px;
+}

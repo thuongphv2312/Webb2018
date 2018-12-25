@@ -1,0 +1,16 @@
+body{
+	width: 60%;
+	margin: 0 auto;
+}
+tr,th,td,table{
+	border-style: solid;
+	border-collapse: collapse;
+	text-align: center;
+}
+th,td{
+	width: 200px;
+	height: 100px;
+}
+td{
+	font-size: 25px;
+}
