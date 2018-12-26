@@ -5,6 +5,7 @@ Thực hiện bởi [Phạm Văn Thượng](https://github.com/thuongphv2312)
 2. [color](https://thuongphv2312.github.io/Webb2018/tuan1/color/color.html)
 3. [images](https://thuongphv2312.github.io/Webb2018/tuan1/image/images.html)
 4. [homepage](https://thuongphv2312.github.io/Webb2018/cattach.png)
+5. [Trangchu](https://thuongphv2312.github.io/Webb2018/index.html)
 
 ## Kiến thức nắm được
 
