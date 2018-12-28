@@ -17,7 +17,6 @@ body{
 
 a{
 	text-decoration: none;
-	color: black;
 }
 *{
 	margin: 0;
@@ -41,15 +40,16 @@ li{
 	font-family: roboto-regular;
 	margin-left:30px;
 	font-size: 13px;
+	padding: 5px;
 }
-.header-top .row-1 .right i{
-	background-color: #e8ecf3;
-	margin-right:5px;
-
+.header-top .row-1 .right span{
+	position: absolute;
+	top: 5px;
+	left: 383px;
+	font-family: roboto-regular;
 }
 .header-top .row-1 div{
-	display: inline-block;
-}
+	display: inline-block;}
 .header-top .row-2{
 	flex:1;
 	text-align: right;
@@ -74,19 +74,6 @@ li{
 	height: 50px;
 	background-color: #ff9900;
 }
-.header-center ul li.menu-class{
-	position: relative;
-}
-.header-center ul li.menu-class div.menu-81{
-	display: none;
-}
-.header-center ul li.menu-class:hover div.menu-81{
-	display: block;
-	width: 271px;
-}
-.header-center ul li.menu-class div.menu-81 ul{
-	position: relative;
-}
 .icon-class{
 	position: absolute;
 	bottom: 0;
@@ -95,29 +82,20 @@ li{
 div.menu-81 ul li {
 	border: 1px solid white;
 }
-.header-center ul li.menu-class div.menu-81 ul li:hover{
-	border: 1px solid #ff9900;
-	border-radius: 10px;
-	color: #ff9900;
+.header-center{
+	display: flex;
 }
-.header-center ul li.menu-class div{
-	position: absolute;
-	background-color: white;
-	left: -5px;
-}
-.header-center ul li.menu-class div ul li{
-	color: #666666;
-	width: 100px;
-	border-right: none;
-}
-.header-center ul li{
-	font-size: 15px;
-	color:#ffe9c7;
-	display: inline-block;
+.header-center div{
+	position: relative;
 	line-height: 50px;
-    width: 70px;
-    text-align: center;
-    border-right: 1px solid #ffad33;
+	width: 9%;
+	border-right:1px solid #ffad33;
+	text-align: center;
+	font-size: 13px;
+	font-family: roboto-medium;
+}
+.header-center div a{
+	color: #ffddaa;
 }
 .header-bottom{
 	background-image: url(images/Layer5.png);
@@ -161,22 +139,28 @@ div.menu-81 ul li {
 }
 .status-left{
 	font-size: 30px;
-	color: black;
+	color: #333333;
 }
 .status-right{
 	font-size: 13px;
 	text-align: right;
 	color: #35b89f;
+	transform: translateY(126%);
 }
 .status-center{
 	line-height: 37px;
 }
 .status-center span{
+	line-height: 30px;
 	color: #00a888;
 	border: 1px solid #00a888;
 	border-radius: 19px;
 	display: inline-block;
 	padding:0 10px;
+}
+.set-width{
+	width: 62.55px;
+	text-align: center;
 }
 .status-center span:hover{
 	background-color: #00a888;
@@ -193,7 +177,7 @@ div.menu-81 ul li {
 	padding-bottom: 70px;
 }
 .main-tab h3{
-	color: black;
+	color: #333333;
 	font-family: roboto-medium;
 	font-size: 17px;
 }
@@ -228,10 +212,12 @@ div.service .source div{
 div.service .source h2{
 	color: #333333;
 	font-size: 20px;
+	font-family: roboto-regular;
 }
 div.service .source span{
-	font-size: 10px;
+	font-size: 13px;
 	color: #999999;
+	font-size: roboto-regular;
 }
 div.service .source{
 	display: flex;
@@ -240,8 +226,8 @@ div.service .source div{
 	text-align: center;
 }
 footer{
-	padding:30px 222px;
-	height: 215px;
+	padding:30px 222px 0;
+	height: 195px;
 	background-color: #2f3b4d;
 }
 footer .menu-footer{
@@ -257,12 +243,12 @@ footer .menu-footer ul{
 footer .menu-footer ul li{
 	padding: 0 27px;
 	border-right:1px solid #444f5f;
-	color: #747c88;
+	color: #979da6;
 }
 footer .Design{
 	text-align: center;
 	font-family: roboto-regular;
-	color: #acafb5;
+	color: #979da6;
 	margin: 20px 0;
-	line-height: 60px;
+	line-height: 20px;
 }
