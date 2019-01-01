@@ -142,6 +142,7 @@ div.menu-child img{
 }
 .header-bottom{
 	background-image: url(images/Layer5.png);
+	background-position-x:center; 
 	padding:10px 222px;
 	height: 200px;
 }
