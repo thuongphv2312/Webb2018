@@ -333,4 +333,7 @@ footer .Design{
 		grid-column: 30% 30% 30%;
 		grid-row-gap: 20px;
 	}
+	div.menu-footer{
+		display: none;
+	}
 }
