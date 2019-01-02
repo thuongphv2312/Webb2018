@@ -171,9 +171,18 @@ div.menu-child img{
 	font-family: roboto-regular;
 }
 .tab-header{
+	position: relative;
 	display: flex;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #dddddd;
+}
+div.underline{
+	position: absolute;
+	width: 48px;
+	border-bottom: 3px solid #ff9900;
+	background-color: red;
+	left: 0;
+	bottom: 0;
 }
 .tab-header a{
 	flex:1;
