@@ -332,4 +332,12 @@ footer .Design{
 		display: grid;
 		grid-template-columns: 100%;
 	}
+	div.service div.source{
+		display: grid;
+		grid-column: 30% 30% 30%;
+		grid-row-gap: 20px;
+	}
+	div.status-left{
+		flex:1;
+	}
 }
