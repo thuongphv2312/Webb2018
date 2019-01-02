@@ -321,10 +321,6 @@ footer .Design{
 	line-height: 20px;
 }
 @media screen and (max-width:1150px ){
-	body{
-		min-width: 100%;
-		min-width: 500px;
-	}
 	div.status-left{
 		flex: 3;
 	}
