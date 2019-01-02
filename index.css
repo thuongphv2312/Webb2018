@@ -1,6 +1,7 @@
 body{
 	width: 100%;
 	margin: 0 auto;
+	min-width: 1050px;
 }
 @font-face {
   font-family: roboto-medium;
@@ -29,7 +30,7 @@ li{
 .header-top{
 	display: flex;
 	height: 35px;
-	padding:5px 222px;
+	padding:5px 100px;
 }
 .header-top .row-1{
 	display: flex;
@@ -45,7 +46,7 @@ li{
 .header-top .row-1 .right span{
 	position: absolute;
 	top: 5px;
-	left: 383px;
+	left: 261px;
 	font-family: roboto-regular;
 }
 .header-top .row-1 div{
@@ -70,7 +71,7 @@ li{
 }
 .header-center{
 	font-family: roboto-medium;
-	padding:0 222px;
+	padding:0 100px;
 	height: 50px;
 	background-color: #ff9900;
 }
@@ -140,6 +141,9 @@ div.menu-child img{
 .header-center div a{
 	color: #ffddaa;
 }
+.header-center div.classs{
+	flex: 1;
+}
 .header-bottom{
 	background-image: url(images/Layer5.png);
 	background-position-x:center; 
@@ -167,7 +171,7 @@ div.menu-child img{
 	background-color: #f1f1f1;
 }
 .tab-post{
-	padding:35px 222px 0;
+	padding:35px 100px 0;
 	font-family: roboto-regular;
 }
 .tab-header{
@@ -287,7 +291,7 @@ div.service .source div{
 	text-align: center;
 }
 footer{
-	padding:30px 222px 0;
+	padding:30px 100px 0;
 	height: 195px;
 	background-color: #2f3b4d;
 }
@@ -295,6 +299,7 @@ footer .menu-footer{
 	margin: 25px 0 ;
 }
 footer .menu-footer ul{
+	display: flex;
 	height: 20px;
 	border-top: 1px solid #444f5f;
 	border-bottom: 1px solid #444f5f;
@@ -302,8 +307,12 @@ footer .menu-footer ul{
 	border-right: none;
 }
 footer .menu-footer ul li{
+	flex: 1;
 	padding: 0 27px;
 	border-right:1px solid #444f5f;
+	text-align: center;
+}
+footer .menu-footer ul li a{
 	color: #979da6;
 }
 footer .Design{
@@ -312,4 +321,13 @@ footer .Design{
 	color: #979da6;
 	margin: 20px 0;
 	line-height: 20px;
+}
+@media screen and (max-width:1150px ){
+	div.status-left{
+		flex: 3;
+	}
+	div.main-tab{
+		display: grid;
+		grid-template-columns: 100%;
+	}
 }
