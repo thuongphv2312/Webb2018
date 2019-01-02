@@ -339,4 +339,22 @@ footer .Design{
 	.menu-footer{
 		display: none;
 	}
+	.header-center{
+		display: none;
+	}
+	div.header-top div.left{
+		display: none;
+	}
+	.header-top .row-1 .right span{
+		left: 133px;
+	}
+	.header-top .row-1 .right{
+		margin-left: 0;
+	}
+	.header-top .row-2 input{
+		width: 100%;
+	}
+	.header-top .row-2 i {
+		right: 400px;
+	}
 }
