@@ -57,6 +57,7 @@ li{
 	position: relative;
 }
 .header-top .row-2 input{
+	width: 200px;
 	height: 32px;
 	background-color: #e8ecf3;
 	border-radius: 4px;
@@ -65,7 +66,7 @@ li{
 }
 .header-top .row-2 i{
 	position: absolute;
-	right: 174px;
+	right: 205px;
 	top: 8px;
 	color: #7088a9;
 }
