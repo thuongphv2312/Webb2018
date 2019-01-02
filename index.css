@@ -54,7 +54,6 @@ li{
 .header-top .row-2{
 	flex:1;
 	text-align: right;
-	position: relative;
 }
 .header-top .row-2 input{
 	width: 200px;
@@ -65,9 +64,9 @@ li{
 	padding:0 0 0 30px;
 }
 .header-top .row-2 i{
+	right: 206px;
+	top:8px;
 	position: absolute;
-	right: 205px;
-	top: 8px;
 	color: #7088a9;
 }
 .header-center{
