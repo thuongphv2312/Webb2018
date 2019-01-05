@@ -1,7 +1,6 @@
 body{
 	width: 100%;
 	margin: 0 auto;
-	min-width: 1050px;
 }
 @font-face {
   font-family: roboto-medium;
@@ -227,6 +226,9 @@ div.underline{
 	grid-column-gap: 27px;
 	grid-row-gap: 27px;
 }
+.main-tab .card-text{
+	display: -webkit-box;
+}
 .main-tab div a div{
 	display: flex;
 }
@@ -262,7 +264,7 @@ div.underline{
 div.service{
 	padding:30px 100px 30px;
 }
-div.service h1{
+div.service p{
 	color: #333333;
 	text-align: center;
 	font-size: 30px;
@@ -272,10 +274,14 @@ div.service h1{
 div.service .source div{
 	flex: 1;
 }
-div.service .source h2{
+div.service .source div p{
+	margin: 20px 0;
+}
+div.service .source p{
 	color: #333333;
 	font-size: 20px;
 	font-family: roboto-regular;
+	margin-bottom: 0;
 }
 div.service .source span{
 	font-size: 13px;
@@ -350,11 +356,5 @@ footer .Design{
 	}
 	.header-top .row-1 .right{
 		margin-left: 0;
-	}
-	.header-top .row-2 input{
-		width: 100%;
-	}
-	.header-top .row-2 i {
-		right: 400px;
 	}
 }
